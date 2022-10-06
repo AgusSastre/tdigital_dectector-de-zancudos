@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="zBkMe1$f1;OVnM:0*d*o" x="0" y="0"><statement name="HANDLER"><block type="device_show_number" id="FFw[y9RVd[rk#v9I5S{F"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="PrDX7TDJg!cP}}G|jEW="></block></value><next><block type="controls_if" id="=^$pI6:p9X7#*6nt^[_5"><mutation elseif="1" else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="hPN$,4y]k?_|Pu-hbo`~"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="va1jP0^jJI27Odq4vP=T"></block></value><value name="B"><shadow type="math_number" id="kP;(,XCw6V`98Au.l{9x"><field name="NUM">29</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id=";N|)3hI0~f|AMH]b[3tg"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_clear_display" id="uqQ.,y$k*D^=prX=*r7V"></block></next></block></statement><value name="IF1"><block type="logic_compare" id=";4:@0#]GX}It#S-hy~t1"><field name="OP">LTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_temperature" id="Add:6Orkr%GqkpG#Aulu"></block></value><value name="B"><shadow type="math_number" id="hb,4cp)/%%C,YD|$vS!d"><field name="NUM">25</field></shadow></value></block></value><statement name="DO1"><block type="basic_show_icon" id="Udbpux|:van4SD@tLbp%"><field name="i">IconNames.Umbrella</field><next><block type="device_clear_display" id="p56`NgR$TwMch+7p+SO0"></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="JR@v!1]iF^?~C_nNV?H/"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        . # . # .
+        `</field><next><block type="device_start_melody" id="=c[rntdmxX!3q6f?R{!f"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="{Y3I,b`YEzZTbRb.{4ax"><field name="melody">Melodies.Dadadadum</field></block></value><next><block type="device_clear_display" id="%)onJ+m!!18@vqC(?e6G"></block></next></block></next></block></statement></block></next></block></statement></block></xml>
